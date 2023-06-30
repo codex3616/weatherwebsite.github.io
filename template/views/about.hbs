@@ -1,0 +1,45 @@
+<html lang="en">
+  <head> 
+{{>headlinks}}
+  </head>
+
+  <body>
+    {{>navbar}}    
+
+    <!-- ################################################## SECTION STARTS ############################################# -->
+    <section class="container-fluid main_section mt-2">
+      <div class="row">
+        <div class="col-md-10 col-12 mx-auto">
+          <div class="row">
+            <!---left -->
+            <div class="col-md-6 main_section_left">
+              <p>Welcome to my zone</p>
+              <h2 class="text-capitalize">
+                i am a
+                <span class="spanText">mern stack developer</span>
+                and a freelancer
+              </h2>
+              <a href="/weather"><button
+                  class="text-uppercase myBtn mt-3"
+                >More</button></a>
+            </div>
+
+            <!---right -->
+
+            <div class="col-md-6 main_section_right align-items-center">
+              <figure>
+                <img
+                  src="./img/8EE65D60-39F5-4A98-A54D-8F9C5AD8E0C0_clipdrop-background-removal (2).png"
+                  class="img-fluid myPhoto"
+                  alt=""
+                />
+              </figure>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ################################################## SECTION DONE ############################################# -->
+{{> footer}}
+  </body>
+</html>
